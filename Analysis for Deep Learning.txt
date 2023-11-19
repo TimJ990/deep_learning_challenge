@@ -1,0 +1,10 @@
+The purpose of this analysis is to compile, traind and evalute our neural network model with a goal accuracy of 75%+.
+The variables that were our target was the "IS_SUCCESFUL" column.
+The features would be all the other columns, everything not including "IS_SUCCESFUL."
+We removed "EIN" and "NAME", we also dropped the low "T" and "C" values.
+For optimziation 1 we had 83/30 neurons with two layers.
+For optimization 2 we had 10/50/10 neurons with three layers.
+for optimization 3 we had 120/55 neurons with two layers.
+No,I was able to get close but never achieve 75% accuracy. 
+I increased the layers for optimzation 2, and increased the neurons for optimization 3.
+I would start with more layers and more neurons, and see if that helped. Optimization 3 yeilded a higher accuracy rate, so maybe adding the more layers would have increased our rate to be at or above our goal.
